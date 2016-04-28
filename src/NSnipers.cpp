@@ -44,5 +44,6 @@ P.S: The Above Problem is just a modified version of a popular BackTracking prob
 
 #include "stdafx.h"
 int solve_nsnipers(int *battlefield, int n){
+	
 	return 0;
 }

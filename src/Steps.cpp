@@ -11,6 +11,8 @@
 	->211
 	->22
 	So total number of ways is 5
+	
+	
 
 	Input : A Integer denoting N (number of steps )
 	Output : Return an Integer denoting the number of ways to reach N steps
@@ -23,8 +25,16 @@
 */
 #include "stdafx.h"
 
+int fib(int s)
+{
+	if (s == 1||s==0)
+		return 1;
 
+	return fib(s - 1) + fib(s - 2);
+}
 int get_steps(int s)
 {
-	return 0;
+	int num = 0;
+	num = fib(s);
+	return num;
 }
